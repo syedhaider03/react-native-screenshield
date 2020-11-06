@@ -20,7 +20,7 @@
     "prepare": "bob build",
     "example": "yarn --cwd example",
     "bootstrap": "yarn example && yarn && cd example/ios && pod install",
-    "postinstall": "cp -r ../../ios/ScreenShieldKit.framework ."
+    "postinstall": "cp -r ../../ScreenShieldKit.framework ."
   },
   "keywords": [
     "react-native",
